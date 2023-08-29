@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background: url("/banner.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 100vw;
+    height: 100vh;
+}
+.navbar {
+    display: inline-block;
+    width: 100%;
+    background: aquamarine;
+    text-align: center;
+    background: rgba(0,0,0,0.5);
+}
+.navbar img {
+    width: 60px;
+    position: relative;
+    float: left;
+}
+.navbar a {
+    position: relative;
+    float: right;
+    font-size: 18px;
+    text-decoration: none;
+    color: red;
+    padding: 20px;
+}
+.navbar a:hover{
+    background: red;
+    color: black;
+    border-radius: 10px;
+}
+.Section-1 {
+    position: relative;
+    top: 30vh;
+    text-align: center;
+}
+.Section-1 h1 {
+    font-size: 32px;
+    color: aqua;
+}
+.section-2{
+    position: relative;
+    top: 35vh;
+    text-align: center;
+}
+.section-2 h3{
+    font-size: 28px;
+    color: aqua;
+}
+button{
+    position: relative;
+    top: 40vh;
+    left: 45vw;
+    background: transparent;
+    border: none;
+    font-size: 17px;
+    color: brown;
+    padding: 10px;
+    border-radius: 10px;
+}
+button:hover{
+    background: brown;
+    color: black;
+}
